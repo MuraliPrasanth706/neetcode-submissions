@@ -1,0 +1,59 @@
+1-Missing Keyboards – 15 marks
+Type: Programming
+Skill: Programming Logic
+Arithmetic Operations Logical Thinking Number Patterns Problem Solving Series and Sequences
+Easy
+30 min
+What this question evaluates Show less
+This question evaluates a candidate&#39;s ability to analyze number sequences and manipulate arithmetic operations,
+focusing on problem-solving skills.
+While working for a keyboard manufacturer, you have learned that all the keyboards have a serial
+number in increasing order and the series starts from some integer X.
+For example:
+If X = 3 and there are 4 keyboards in the warehouse, then the series is -&gt; 3, 4, 5, 6.
+If X = 15 and there are 6 keyboards in the warehouse, then the series is 15, 16, 17, 18, 19, 20.
+You are informed of a defective batch of keyboards that need to be recalled from the market. You are
+given the number of keyboards in the warehouse with their respective serial numbers. Find the
+number of keyboards that were sold from the given series.
+Note: It is guaranteed that the keyboards with the highest serial number and the lowest serial
+number are accounted for in your warehouse.
+Function description
+Complete the missing Keyboards function in the editor below. It has the following parameter(s):
+
+Name Type Description
+
+Arr INTEGER ARRAY number of keyboards in the warehouse.
+
+Retur
+n
+
+The function must return an INTEGER denoting the the number of
+keyboards from the defective series that need to be recalled
+
+Constraints
+ 1  ≤ N ≤  10^5
+ 1  ≤ Arr[i] ≤  10^5
+
+Input format for debugging
+ The first line contains an integer, N, denoting the number of elements in
+Arr.
+ Each line i of the N subsequent lines (where 0 ≤ i &lt; N) contains an integer
+describing Arr[i].
+
+Sample Testcases
+Inpu
+t
+
+Outpu
+t Output Description
+
+3
+5
+4
+6
+
+0
+
+If X = 4, and there were 3 keyboards then 4,
+5, 6 are all present and no keyboards were
+sold from this batch.
